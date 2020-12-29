@@ -1,0 +1,72 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="heritage.css">
+	<title>Heritage Experience</title>
+	<script>
+		function mouse1()
+		{
+			document.getElementById('but1').style.width="160px";
+			document.getElementById('but1').style.color="#cc9900";
+		}
+		function mouse2()
+		{
+			document.getElementById('but2').style.width="160px";
+			document.getElementById('but2').style.color="#cc9900";
+		}
+		function normal1()
+		{
+			document.getElementById('but1').style.width="";
+			document.getElementById('but1').style.color="";
+		}
+		function normal2()
+		{
+			document.getElementById('but2').style.width="";
+			document.getElementById('but2').style.color="";
+		}
+		function link1()
+		{
+			window.open("bookheritage.html");
+		}
+		function link2()
+		{
+			window.open("wedding.html");
+		}
+	</script>
+</head>
+<body>
+	<div id="A">
+		<h1>HERITAGE EXPERIENCE</h1>
+	</div>
+	<div id="main">
+		<div id="B" style="background-image:url(wedding3.jpg)">
+            <div id="D">
+				<p class="p1">
+				Rs. 7,150 Net per person<br>(Terms & Conditions Apply)<br><br>Some value additions are subject to a minimum of 150 guests in the Jubilee Ballroom and minimum count of 250 guests in the Grand Ballroom
+                </p>
+			</div>
+			<div id="E">
+			<input type="button" id="but1"value="BOOK" onmouseover="mouse1();" onmouseout="normal1();" onclick="linl1();">
+			<input type="button" id="but2" value="OUR WEDDINGS" onmouseover="mouse2();" onmouseout="normal2();" onclick="link2();">
+		    </div>
+		</div>
+		<div id="c">
+			<ul>
+				<li>A stay for the bride & groom at our Junior Suite with breakfast</li>
+				<li>Dressing room on the day of the wedding</li><br>
+				<li>A platter of sweets</li>
+				<li>A bottle of Sparkling wine</li><br>
+				<li>Ashtaka and traditional blessing (Jayamangala Gatha) and poruwa essentials</li>
+				<li>Bagpipers for the going away ceremony</li><br>
+				<li>Unique locations for Photographs</li>
+				<li>Special room rates for additional room bookings</li><br>
+				<li>Celebrate a romantic first year anniversary dinner (for two) at The Verandah restaurant</li>
+				<li>12% savings for being a part of the bridal retinue</li><br>
+				<li>Special rates at The Sea Side Park Hotel Spa by L‟Occitane</li>
+                <li>15% savings on the bridal shower event</li><br>
+				<li>Say "thank you" to your loved ones for being a part of your special day by having dinner at The Verandah with a 10% savings</li>
+				
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="meeting.css">
+	<title>Our Meetings</title>
+	<script>
+		function onmouse1()
+		{
+			document.getElementById('but1').style.color="#cccc00";
+		}
+		function onmouse2()
+		{
+			document.getElementById('but2').style.color="#cccc00";
+		}
+		function onmouse3()
+		{
+			document.getElementById('but3').style.color="#cccc00";
+		}
+		function normouse1()
+		{
+			document.getElementById('but1').style.color="";
+		}
+		function normouse2()
+		{
+			document.getElementById('but2').style.color="";
+		}
+		function normouse3()
+		{
+			document.getElementById('but3').style.color="";
+		}
+		function link1()
+		{
+			window.open("bookfull.html");
+		}
+		function link2()
+		{
+			window.open("bookhalf.html");
+		}
+		function link3()
+		{
+			window.open("bookthree.html");
+		}
+	</script>
+</head>
+<body>
+	<div id="A">
+		<h1>SEA SIDE PARK HOTEL<br><i>WELCOME TO OUR MEETING SITE</i></h1> 
+	</div>
+	<div id="B">
+		<p class="p1">Meetings and events, large or small, flourish under the expertise of the team whose purpose it is to ensure that every event is carried out with modern efficiency, warm hospitality and a touch of elegance. For our current meetings and events offerings, please contact our Meetings Concierge: meeting.concierge@seasideparkhotel.net</p>
+	</div>
+	<div id="name">
+	    <h2>
+		   <a href="#C">Full Day Sea Side</a>
+		   <a href="#D">Half Day Sea Side</a>
+		   <a href="#E">Three Hour Sea Side</a>
+	    </h2>
+    </div>
+    <div id="main1">
+    	<div id="main2">
+			<div id="C"></div>
+			<div id="main3">
+				<p class="p2">
+					<font size="6px"><b>Full Day Sea Side</b></font><br><br>
+					<b><center>Two Tea/Coffee breaks with Canapes at the Cafe<br>Lunch at our Sea Side Restaurant</center></b>
+					<ul>
+						<li>Energy booster on arrival</li>
+						<li>Scented cold towels for each delegate before the afternoon session</li>
+						<li>State of the art audio visual equipment, including multimedia projector, built in sound system, wireless clip on mic and wireless handheld mic*</li>
+						<li>In-room refreshments with an espresso coffee machine and tea samovar throughout the meeting</li>
+						<li>Stationery supply chest</li>
+						<li>Complimentary Wi-Fi throughout the conference or meeting</li>
+						<li>Function agenda with Tea/Coffee break & lunch timing</li>
+						<li>Fresh flower arrangements for tables</li>
+						<li>Personalized service by your own meeting concierge from the start to end</li>
+					</ul>
+				</p>
+                <input type="button" id="but1" value="BOOK" onclick="link1();" onmouseover="onmouse1();" onmouseout="normouse1();">
+			</div>
+		</div>
+		<div id="main2">
+			<div id="D"></div>
+			<div id="main3">
+				<p class="p2">
+					<font size="6px"><b>Half Day Sea Side</b></font><br><br>
+					<b><center>One Tea/Coffee breaks with Canapes at the Cafean<br>Lunch at our Sea Side Restaurant</center></b>
+					<ul>
+						<li>Energy booster on arrival</li>
+						<li>Scented cold towels for each delegate before the afternoon session</li>
+						<li>State of the art audio visual equipment, including multimedia projector, built in sound system, wireless clip on mic and wireless handheld mic*</li>
+						<li>In-room refreshments with an espresso coffee machine and tea samovar throughout the meeting</li>
+						<li>Stationery supply chest</li>
+						<li>Complimentary Wi-Fi throughout the conference or meeting</li>
+						<li>Function agenda with Tea/Coffee break & lunch timing</li>
+						<li>Fresh flower arrangements for tables</li>
+						<li>Personalized service by your own meeting concierge from the start to end</li>
+					</ul>
+				</p>
+                <input type="button" id="but2" value="BOOK" onclick="link2();" onmouseover="onmouse2();" onmouseout="normouse2();">
+			</div>
+		</div>
+		<div id="main2">
+			<div id="E"></div>
+			<div id="main3">
+				<p class="p2">
+					<font size="6px"><b>Three Hour Sea Side</b></font><br><br>
+					<b><center>One Tea/Coffee breaks with Canapes at the Cafe</center></b>
+					<ul>
+						<li>Energy booster on arrival</li>
+						<li>Scented cold towels for each delegate before the afternoon session</li>
+						<li>State of the art audio visual equipment, including multimedia projector, built in sound system, wireless clip on mic and wireless handheld mic*</li>
+						<li>In-room refreshments with an espresso coffee machine and tea samovar throughout the meeting</li>
+						<li>Stationery supply chest</li>
+						<li>Complimentary Wi-Fi throughout the conference or meeting</li>
+						<li>Function agenda with Tea/Coffee break & lunch timing</li>
+						<li>Fresh flower arrangements for tables</li>
+						<li>Personalized service by your own meeting concierge from the start to end</li>
+					</ul>
+					
+				</p>
+                <input type="button" id="but3" value="BOOK" onclick="link3();" onmouseover="onmouse3();" onmouseout="normouse3();">
+			</div>
+		</div>
+    </div>
+</body>
+</html>

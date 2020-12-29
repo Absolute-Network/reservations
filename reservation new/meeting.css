@@ -1,0 +1,121 @@
+#A{
+	width:100%;
+	height:110px;
+	text-align:center;
+	border:1px solid black;
+	/*padding-top:10px;
+	padding-bottom:10px;*/
+	/*background-image:linear-gradient(to right, #999966, #669999);
+	background-color:#999966;*/
+	background-color:#2e004d;
+    color:#fff;
+    font-family:'Open Sans', sans-serif;
+}
+#B{
+	width:80%;
+	height:80px;
+	text-align:center;
+	border:3px solid black;
+	margin-left:10%;
+	margin-top:30px;
+	/*background-color:#80ff80;*/
+	opacity:0.75;
+	background-image:linear-gradient(to right, #ffa31a, #aa80ff);
+    background-color:#ffa31a;
+}
+#name{
+	margin-top:40px;
+	margin-left:300px;
+}
+a{
+	text-decoration:none;
+	margin-left:30px;
+	color:#999966;
+}
+a:hover{
+	color:#cccc00;
+}
+#main1{
+	width:98%;
+	height:1310px;
+	margin-left:18px;
+	/*border:1px solid black;*/
+	margin-top:40px;
+}
+#main2{
+	width:98%;
+	height:400px;
+	margin-left:12px;
+	/*border:1px solid black;*/
+	margin-top:30px;
+}
+#C{
+	width:49%;
+	height:400px;
+	float:left;
+	/*border:1px solid black;*/
+	background-image:url("meeting1.jpg");
+	background-size:cover;
+}
+#main3{
+	width:51%;
+	height:400px;
+	float:left;
+	/*margin-left:2px;*/
+	/*border:1px solid black;*/
+	/*background-color:#80ff80;*/
+	/*opacity:0.6;*/
+	background-image:linear-gradient(to right, #ffa31a, #aa80ff);
+    background-color:#ffa31a;
+}
+#D{
+	width:49%;
+	height:400px;
+	float:left;
+	/*border:1px solid black;*/
+	background-image:url("meeting2.jpg");
+	background-size:cover;
+}
+#E{
+	width:49%;
+	height:400px;
+	float:left;
+	/*border:1px solid black;*/
+	background-image:url("meeting3.jpg");
+	background-size:cover;
+}
+p.p2{
+	width:80%;
+	margin-left:70px;
+}
+li{
+	margin-left:45px;
+}
+#but1{
+	color:#fff;
+	background-color:#ffa31a;
+	width:100px;
+	height:40px;
+	border:none;
+	float:right;
+	margin-right:20px;
+}
+#but2{
+	color:#fff;
+	background-color:#ffa31a;
+	width:100px;
+	height:40px;
+	border:none;
+	float:right;
+	margin-right:20px;
+}
+#but3{
+	color:#fff;
+	background-color:#ffa31a;
+	width:100px;
+	height:40px;
+	border:none;
+	float:right;
+	margin-right:20px;
+	margin-top:17px;
+}
